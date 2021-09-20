@@ -11,3 +11,11 @@ anotherLevelOfString = """Hello There "This is what ihsan said"
 I was said that
 """
 print(anotherLevelOfString)
+
+# Cara melakukan escaping untuk character \
+
+# Cara pertama dengan dua kali \\
+print("C:\\Users\\new")
+
+# Cara kedua dengan menggunakan flag r (seolah regex)
+print(r"C:\Users\new")
