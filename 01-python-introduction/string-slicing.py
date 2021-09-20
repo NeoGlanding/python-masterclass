@@ -16,3 +16,6 @@ print(nama[-4:-2])
 
 # Mengambil dari awal sampai akhir, tapi diambil setiap dua langkah
 print(nama[0::2]) #Mhma ha burha
+
+# Slicing Backwards
+print(nama[::-1])
